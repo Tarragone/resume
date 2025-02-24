@@ -49,11 +49,10 @@ body {
     font-size: 16px;
     background-color:#eae0d5;
 }
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
+
+
+
+
 /* header stuff here */
 header {
     padding: 1rem 2vw;
@@ -164,13 +163,25 @@ main a:hover {
     color:#024873;
 }
     
+/*footer always at bottom*/
+html, body {
+    height: 100%; /* Ensure the body takes up the full height */
+}
 
+body {
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+}
+
+main {
+    flex: 1; /* This allows the main section to grow and fill available space */
+}
 /* footer stuff here */
 footer {
     border-top: solid #ccc 2px;
     margin-bottom: 0;
     color: #b64e11;
     font-size: .7rem;
-    padding: 1rem 0 0 1rem;
+    padding: 1rem 0 0 50vw;
     background-color:#fff;
 }
