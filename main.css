@@ -48,6 +48,8 @@ body {
     margin: 0;
     font-size: 16px;
     background-color:#eae0d5;
+}
+body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
