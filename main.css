@@ -166,6 +166,7 @@ main a:hover {
 /* footer stuff here */
 footer {
     border-top: solid #ccc 2px;
+    margin-bottom: .2rem;
     text-align: center;
     color: #b64e11;
     font-size: .7rem;
