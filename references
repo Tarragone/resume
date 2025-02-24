@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta name="description" content="Ashton Clarks Online resume"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <title>Ashton Resume</title>
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <h1>Ashton Clark</h1>
+        <p>Online Resume</p>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Resume</a></li>
+            <li class="active"><a href="references.html">References</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>References</h1>
+        <p>Previous bosses and coworkers who will endorse me</p>
+        <h2>Marco's Pizza</h2>
+        <dl>
+        <dt>Rikki Roberts</dt>
+            <dd>
+	           Manager at Marco's pizza.
+            </dd>
+        <dt>Benjamin Jensen</dt>
+            <dd>
+	            Shift lead and driver at Marco’s Pizza.
+            </dd>
+        <dt>Abbie Johnson</dt>
+            <dd>
+	           Manager at Marco’s Pizza.
+            </dd>
+        <dt>Isaac Pedroza</dt>
+            <dd>
+	             Former GM and sales rep at Marco's, currently a manager at Marco's.
+            </dd>
+        <dt>Kaiya Toketa</dt>
+            <dd>
+	           Former manager at Marco's pizza.
+            </dd>
+        <dt>Gracie Coxson</dt>
+            <dd>
+	            Former shift lead at Marco's.
+            </dd>
+        </dl>
+<h3 class="cat">References contact information can be provided on request</h3>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;2025 &bull; Ashton Clark</p>
+    </footer>
+</body>
+</html>
