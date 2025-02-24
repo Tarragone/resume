@@ -1,0 +1,125 @@
+body {
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+    background-color:#eae0d5;
+}
+/* header stuff here */
+header {
+    padding: 1rem 2vw;
+    background-color:#fff;
+}
+header h1 {
+    margin: 0;
+    color: #5d3a2a;
+    font-size: 2.5rem;
+}
+h3{
+    margin-top: .5rem;
+    margin-bottom:0;
+    color:#22333b;
+}
+h3.cat{
+    font-weight: 600;
+    color: #b64e11;
+}
+header p {
+    margin: 0;
+    color: #b64e11;
+    font-size: 1.22rem;
+}
+p{
+    margin-top:0;
+}
+/* navigation stuff here */
+nav {
+    background-color: #5d3a2a;
+}
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+nav .active a {
+    background-color: #b64e11;
+    color: #ffffff;
+}
+nav a:hover {
+    background-color: #d24d21;
+}
+
+
+/* main stuff here */
+main {
+    padding: 1rem 2vw;
+}
+
+main h1 {
+    color: #22333b;
+    font-size: 2.5rem;
+    margin: .5rem 0 .8rem 0;
+}
+main h2 {
+    color: #5d3a2a;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .8rem 0;
+    line-height: 150%;
+}
+
+main ol {
+    background-color: #eaeaea;
+}
+
+main dl dt {
+    color:black;
+    font-weight: 600;
+    margin: .5rem;
+}
+main dl dd {
+    color: #024873;
+    font-size: .9rem;
+    margin-bottom: .7rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main strong {
+    color: ##5d3a2a;
+}
+
+main a {
+    color: #d24d21;
+}
+main a:hover {
+    background-color:#eee;
+    color:#024873;
+}
+    
+
+/* footer stuff here */
+footer {
+    border-top: solid #ccc 2px;
+    text-align: center;
+    color: #b64e11;
+    font-size: .7rem;
+    padding: 1rem 0;
+    background-color:#fff;
+}
