@@ -55,8 +55,11 @@ body {
 
 /* header stuff here */
 header {
-    padding: 1rem 2vw;
-    background-color:#fff;
+    padding: 1.5rem;
+    background-color: #f8f9fa;
+    top: 0;
+    position: sticky;
+    z-index:80083;
 }
 header h1 {
     margin: 0;
@@ -84,6 +87,10 @@ p{
 /* navigation stuff here */
 nav {
     background-color: #5d3a2a;
+    position:fixed;
+    width: 100%;
+    top: 6rem;
+    z-index:80084;
 }
 nav ul {
     margin: 0;
@@ -98,7 +105,10 @@ nav a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 700;
+    transition: background-color 0.7s ease;
+
 }
+
 
 nav .active a {
     background-color: #b64e11;
@@ -111,7 +121,7 @@ nav a:hover {
 
 /* main stuff here */
 main {
-    padding: 1rem 2vw;
+    padding: 1rem 1vw;
 }
 
 main h1 {
@@ -136,21 +146,15 @@ main ol {
 main dl dt {
     color:black;
     font-weight: 600;
-    margin: .5rem;
+    margin: .3rem;
+    
 }
 main dl dd {
-    color: #024873;
     font-size: 1rem;
     margin-bottom: .7rem;
+    margin-left:1rem;
 }
-main ul {
-    list-style-type: circle;
-}
-main ul li {
-    line-height: 125%;
-    margin-bottom: .5rem;
-    font-size: .9rem;
-}
+
 main strong {
     color: #5d3a2a;
 }
@@ -159,7 +163,6 @@ main a {
     color: #e25d31;
 }
 main a:hover {
-    background-color:#eee;
     color:#024873;
 }
     
@@ -183,5 +186,5 @@ footer {
     color: #b64e11;
     font-size: .7rem;
     padding: 1rem 0 0 50vw;
-    background-color:#fff;
+    background-color: #f8f9fa;
 }
