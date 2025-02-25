@@ -57,9 +57,6 @@ body {
 header {
     padding: 1.5rem;
     background-color: #f8f9fa;
-    top: 0;
-    position: sticky;
-    z-index:80083;
 }
 header h1 {
     margin: 0;
@@ -87,10 +84,6 @@ p{
 /* navigation stuff here */
 nav {
     background-color: #5d3a2a;
-    position:fixed;
-    width: 100%;
-    top: 6rem;
-    z-index:80084;
 }
 nav ul {
     margin: 0;
